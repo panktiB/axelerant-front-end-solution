@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/sass/styles.scss" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <header>
+      <h4 class="logo">Company Logo</h4>
+      <ul class="nav">
+        <li class="navlink"><a href="#">About</a></li>
+        <li class="navlink"><a href="#">Services</a></li>
+        <li class="navlink"><a href="#">Solutions</a></li>
+        <li class="navlink"><a href="#">Blog</a></li>
+        <li class="navlink getInTouch"><a href="#">Get in Touch</a></li>
+      </ul>
+      <div class="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="getInTouchIcon">
+        <i class="far fa-comment-alt"></i>
+      </div>
+    </header>
+
+    <div class="services">
+      <div class="servicesHeading">
+        Integer bibendum sit amet arcu vel egestas
+      </div>
+      <div class="grid-container-services">
+        <div class="grid-item-serviceName">
+          <i class="fas fa-user-friends"></i>
+          <p>Service Name</p>
+        </div>
+        <div class="grid-item-serviceName">
+          <i class="fas fa-user-friends"></i>
+          <p>Service Name</p>
+        </div>
+        <div class="grid-item-serviceName">
+          <i class="fas fa-user-friends"></i>
+          <p>Service Name</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="section">
+        <div id="background">
+          this is image
+        </div>
+        <section id="shows">
+           <h2 class="show-dates"> <a href="tour.html"> Show Dates </a> </h2>
+        </section>
+      </div> -->
+
+    <div class="map">
+      <div class="grid-container-map">
+        <div class="grid-item-map">
+          <h3 class="mapHeading">
+            Mauris id bibendum est. Proin dapibus sollicitudin iaculis, Maesenas
+            condimentum maximus laoreet.
+          </h3>
+          <p>
+            In maximus eusimod egestas. Fusce tincidunt posuere est non
+            elementum. Vivamus tincidunt eleifend nisl et gravida. Aenean in
+            lorem ultrices, pellentesque augue eu, mattis est. Praesent sed
+            volutpat nibh. Morbi faucibus tortor sed neque vulputate hendrerit.
+            Sed aliquam mattis purus eleifend consectetur. Nulla mollis non enim
+            non tempus.
+          </p>
+        </div>
+        <div class="grid-item-map-image">
+          <img src="../src/sass/map-2.JPG" />
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h2 class="testimonialsHeading">Testimonials</h2>
+      <div class="grid-container-testimonials">
+        <div class="grid-item-testimonials">
+          <div class="speech-bubble">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              muris at quam at mauris venenatis eleifend. nullam eleifend odio a
+              pretium dignissim. aenean non rhucus quam.
+            </p>
+          </div>
+          <div class="clientName">
+            <i class="fas fa-user"></i>
+            <div>
+              <p>CLIENT NAME</p>
+              <small>Position, ORG</small>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-testimonials">
+          <div class="speech-bubble">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              inc ut ipsum iacullis, dictum magna id, lacinia ante. nulla
+              facilisi. Integer lobortis in risus eget colutpat. Donec interdum
+              elit eget quam aliquam sodales. Vestibulum auctor auctor finibus.
+            </p>
+          </div>
+          <div class="clientName">
+            <i class="fas fa-user"></i>
+            <div>
+              <p>CLIENT NAME</p>
+              <small>Position, ORG</small>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-testimonials">
+          <div class="speech-bubble">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              muris id bibendum est. Proin dapibus sollicitudin iacullis.
+              Maecenas condimentum maximus laoreet. In maximus euismod egestas.
+            </p>
+          </div>
+          <div class="clientName">
+            <i class="fas fa-user"></i>
+            <div>
+              <p>CLIENT NAME</p>
+              <small>Position, ORG</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="workForm">
+      <h3 class="workFormHeading">Convinced to work with us ?</h3>
+      <h4 class="workFormHeading">Company has helped agencies keep their promises to clients since 2005</h4>
+      <form class="form-inline" action="/action_page.php"></form>
+        <div class="grid-container-workForm">
+          
+            <div class="grid-item-workForm">
+              <input type="text" id="fullName" placeholder="Full Name" name="fullName">
+              <label class="fullNameInvalid">Enter valid name, only alphabets and first & last name</label>
+              <input type="email" id="email" placeholder="Email Address" name="email">
+              <label class="emailInvalid">Enter valid email, abc@xyz.com</label>
+              <input type="number" id="number" placeholder="Phone Number" name="number">
+              <label class="numberInvalid">Enter valid number, only numbers (length 10)</label>
+            </div>
+            <div class="grid-item-text-workForm">
+              <textarea>Message in brief</textarea>
+            </div>
+            <div class="grid-item-text-workForm">
+              <button type="submit">Submit</button>
+            </div>
+            <div class="successHide">Successfully submitted !</div>
+          
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="grid-container-footer">
+        <div class="grid-item-footer-copyright">
+            <span class="copyright"
+            ><i class="far fa-copyright"></i> 2017 Company. All rights
+            reserved</span
+          >
+        </div>
+        <div class="grid-item-footer-follow">
+            <span class="follow">
+                Follow us on
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-envelope"></i>
+              </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
